@@ -18,6 +18,7 @@
 	padding: 2px 0 0 2px;
 	top: -12px;
 }
+.jquery-message .ui-widget { margin-bottom: 3px; }
 .jquery-message p {
 	font-size: 1.6em;
 	color: #363636;

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Message - Demo</title>
+
+    <link href="http://code.jquery.com/ui/1.10.3/themes/trontastic/jquery-ui.css" rel="stylesheet">
+    <link href="jquery.message.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; }
+        html { font-size: 100.1%; }
+        body { font-size: 62.5%; background: #ccc; }
+    </style>
+</head>
+<body>
+    <h1>This a quick demo for the jQuery Message plugin. View source to see the code.</h1>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="jquery.message.js"></script>
+    <script>
+        (function($){
+            $.message('This is an error :-(', 'error');
+            $.message('This is a warning :-/', 'warning');
+            $.message('This is purely informational :-|', 'info');
+            $.message('You have successfully seen all the types of notifications :-)', 'success');
+        }(jQuery));
+    </script>
+</body>
+</html>

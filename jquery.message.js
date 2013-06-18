@@ -177,6 +177,11 @@
 	};
 
 
+    /**
+     * Creates a new notification and adds it to the stack.
+     * @param type String the type of message, ['info', 'warning', 'success', 'error']
+     * @param (opts) {*} call-time override for the default settings
+     */
 	$.fn.message = function(type, opts){
 		var msgText = $.trim(this.text());
 		if (!msgText && (typeof opts === 'string')){
@@ -188,6 +193,13 @@
 		//Make it chainable even thou it doesn't make much sense since this plugin doesn't modify "this"
 		return this;
 	};
+
+    /**
+     * Creates a new notification and adds it to the stack.
+     * @param msg String the message text
+     * @param type String the type of message, ['info', 'warning', 'success', 'error']
+     * @param (opts) {*} call-time override for the default settings
+     */
 	$.message = function(msg, type, opts) {
 		var msgText = $.trim(msg || ""), message;
 		if (!msgText) { return; }
