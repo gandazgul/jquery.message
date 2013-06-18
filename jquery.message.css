@@ -1,0 +1,34 @@
+.jquery-message {
+	position: fixed;
+	width: 670px;
+	top: 94px;
+	left: 50%;
+	margin-left: -346px;
+	z-index: 10001;
+}
+.jquery-message .container { padding: 1.3em .7em; }
+.jquery-message .icon-container { width: 18px; height: 18px; position: absolute; }
+.jquery-message .icon {
+	margin-right: .3em;
+	display: block;
+	position: relative;
+	left: -29px;
+	width: 18px;
+	height: 18px;
+	padding: 2px 0 0 2px;
+	top: -12px;
+}
+.jquery-message p {
+	font-size: 1.6em;
+	color: #363636;
+	margin: 0;
+}
+
+/**
+ * Additional ui-state for jQuery UI
+ */
+.ui-state-warning, .ui-widget-content .ui-state-warning {
+	border: 1px solid #333;
+	background: #FACE46 url(warning_background.png) 50% 50% repeat;
+	color: #363636;
+}

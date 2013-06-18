@@ -180,7 +180,9 @@
 	$.fn.message = function(type, opts){
 		var msgText = $.trim(this.text());
 		if (!msgText && (typeof opts === 'string')){
-			$.message.apply(this, arguments);
+			$.message(type, opts);
+		}else{
+			$.message(msgText, type, opts);
 		}
 
 		//Make it chainable even thou it doesn't make much sense since this plugin doesn't modify "this"
