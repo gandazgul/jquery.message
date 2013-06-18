@@ -11,7 +11,7 @@ jQuery plugin to implement a global user notifications system for your web app.
 
 **Based on original jQuery Message plugin by**
 ```
-Copyright (c) 2009 Jörn Zaefferer
+Copyright (c) 2009 Jï¿½rn Zaefferer
 http://bassistance.de/jquery-plugins/jquery-plugin-message/
 $Id: jquery.message.js 6407 2009-06-19 09:07:26Z joern.zaefferer $
 
@@ -99,7 +99,7 @@ $.Message = {
 $.Message.defaults.template
 ---------------------------
 
-In this template the message text is inserted within the "p" tag. When you modify it keep a <p> tag somewhere.
+In this template the message text is inserted within the "p" tag. When you modify it keep a ```<p>``` tag somewhere.
 
 $.Message.defaults.messagePrefixes
 ----------------------------------
