@@ -11,7 +11,7 @@ jQuery plugin to implement a global user notifications system for your web app.
 
 **Based on original jQuery Message plugin by**
 ```
-Copyright (c) 2009 J�rn Zaefferer
+Copyright (c) 2009 Jörn Zaefferer
 http://bassistance.de/jquery-plugins/jquery-plugin-message/
 $Id: jquery.message.js 6407 2009-06-19 09:07:26Z joern.zaefferer $
 
